@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Antokochumon/netflix-clone/static/css/main.ed884e71.css",
+    "main.js": "/Antokochumon/netflix-clone/static/js/main.3898a50a.js",
+    "index.html": "/Antokochumon/netflix-clone/index.html",
+    "main.ed884e71.css.map": "/Antokochumon/netflix-clone/static/css/main.ed884e71.css.map",
+    "main.3898a50a.js.map": "/Antokochumon/netflix-clone/static/js/main.3898a50a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed884e71.css",
+    "static/js/main.3898a50a.js"
+  ]
+}

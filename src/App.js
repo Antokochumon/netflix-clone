@@ -5,20 +5,22 @@ import './App.css';
 import Banner from './Components/Banner/Banner';
 import RowPost from './Components/RowPost/RowPost';
 import Footer from './Components/footer/footer'; // Import Footer
-import { BrowserRouter } from 'react-router-dom';
+
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename="/netflix-clone"> {/* Replace with your repository name */}
+    <HashRouter>
       <div className="App">
         <NavBar />
         <Banner />
         <RowPost url={originals} title="Netflix Originals" />
         <RowPost url={action} title="Action" isSmall />
-        <Footer /> {/* Include Footer */}
+        <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
 export default App;
+
